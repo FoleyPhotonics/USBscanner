@@ -8,6 +8,6 @@ How to enable automatic USB scanning
  - Trigger at log on of any user
  - Action, start a program
  - program/script: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
- - Arguments: -ExecutionPolicy Unrestricted -File "C:\USBscanner\triggerOnUSB.ps1"
+ - Arguments: -windowstyle hidden -ExecutionPolicy Unrestricted -File "C:\USBscanner\triggerOnUSB.ps1"
 3. Modify "triggerOnUSB.ps1" so that all (non-USB) used drive letters are commented out from the startup scan
 4. reboot or start task.
